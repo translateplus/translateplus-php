@@ -1,0 +1,42 @@
+{
+  "name": "translateplus/translateplus-php",
+  "description": "Official PHP client library for Translation API - Professional translation service for text, HTML, emails, subtitles, and i18n files",
+  "type": "library",
+  "keywords": [
+    "translation",
+    "api",
+    "translate",
+    "multilingual",
+    "i18n",
+    "localization"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TranslatePlus",
+      "email": "support@translateplus.io"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "phpstan/phpstan": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TranslatePlus\\": "src/TranslatePlus/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TranslatePlus\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
