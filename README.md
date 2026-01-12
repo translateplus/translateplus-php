@@ -273,5 +273,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Related Libraries
 
-- **Python**: [translateplus-python](https://pypi.org/project/translateplus-python/)
-- **JavaScript/TypeScript**: [translateplus-js](https://www.npmjs.com/package/translateplus-js)
+TranslatePlus provides official client libraries for multiple programming languages:
+
+- **Python**: [translateplus-python](https://pypi.org/project/translateplus-python/) - Official PyPI package
+- **JavaScript/TypeScript**: [translateplus-js](https://www.npmjs.com/package/translateplus-js) - Official npm package
+
+All libraries provide the same comprehensive API support and features.
